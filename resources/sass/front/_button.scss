@@ -1,0 +1,363 @@
+// varibales >>>
+// ................................................................................
+// varibales fouce
+$fouceprimary:#706fd3;
+$foucesecondary:#474787;
+$foucedanger:#ff5252;
+$foucesuccess:#33d9b2;
+$foucewarning:#ffb142;
+$fouceinfo:#218c74;
+$foucelight:#f7f1e3;
+$foucedark:#2c2c54;
+// varibales border fouce
+$fouceborderprimary:#706fd3;
+$foucebordersecondary:#474787;
+$fouceborderdanger:#ff5252;
+$foucebordersuccess:#33d9b2;
+$fouceborderwarning:#ffb142;
+$fouceborderinfo:#218c74;
+$fouceborderlight:#f7f1e3;
+$fouceborderdark:#2c2c54;
+// varibales hover
+// varibale hover style
+$hoverprimary:#706fd3;
+$hoversecondary:#474787;
+$hoversuccess:#33d9b2;
+$hoverdanger:#ff5252;
+$hoverwarning:#ffb142;
+$hoverinfo:#218c74;
+$hoverlight:#f7f1e3;
+$hoverdark:#2c2c54;
+// varibale border hover
+$hoverborderprimary:#706fd3;
+$hoverbordersecondary:#474787;
+$hoverbordersuccess:#33d9b2;
+$hoverborderdanger:#ff5252;
+$hoverborderwarning:#ffb142;
+$hoverborderinfo:#218c74;
+$hoverborderlight:#f7f1e3;
+$hoverborderdark:#2c2c54;
+// button style
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+}
+.btn-secondary {
+    background-color: $secondary;
+    border-color: $secondary;
+}
+.btn-success {
+    background-color: $success;
+    border-color: $success;
+}
+.btn-danger {
+    background-color: $danger;
+    border-color: $danger;
+}
+.btn-warning {
+    background-color: $warning;
+    border-color: $warning;
+}
+.btn-info {
+    background-color: $info;
+    border-color: $info;
+}
+.btn-light {
+    background-color: $light;
+    border-color: $light;
+}
+.btn-dark {
+    background-color: $dark;
+    border-color: $dark;
+}
+
+
+// hover button
+.btn-primary:hover{
+    color: #fff;
+    background-color: $hoverprimary;
+    border-color: $hoverborderprimary;
+}
+.btn-secondary:hover{
+    color: #fff;
+    background-color: $hoversecondary;
+    border-color: $hoverbordersecondary;
+}
+.btn-success:hover{
+    color: #fff;
+    background-color: $hoversuccess;
+    border-color: $hoverbordersuccess;
+}
+.btn-danger:hover{
+    color: #fff;
+    background-color: $hoverdanger;
+    border-color: $hoverborderdanger;
+}
+.btn-warning:hover{
+    color: #fff;
+    background-color: $hoverwarning;
+    border-color: $hoverborderwarning;
+}
+.btn-info:hover{
+    color: #fff;
+    background-color: $hoverinfo;
+    border-color: $hoverborderinfo;
+}
+.btn-light:hover{
+    color: #fff;
+    background-color: $hoverlight;
+    border-color: $hoverborderlight;
+}
+.btn-dark:hover{
+    color: #fff;
+    background-color: $hoverdark;
+    border-color: $hoverborderdark;
+}
+
+// focus button
+.btn-primary:focus {
+    color: #fff;
+    background-color: $fouceprimary;
+    border-color: $fouceborderprimary;
+    box-shadow: none;
+}
+.btn-secondary:focus {
+    color: #fff;
+    background-color: $foucesecondary;
+    border-color: $foucebordersecondary;
+    box-shadow: none;
+}
+.btn-success:focus {
+    color: #fff;
+    background-color: $foucesuccess;
+    border-color: $foucebordersuccess;
+    box-shadow: none;
+}
+.btn-danger:focus {
+    color: #fff;
+    background-color: $foucedanger;
+    border-color: $fouceborderdanger;
+    box-shadow: none;
+}
+.btn-warning:focus {
+    color: #fff;
+    background-color: $foucewarning;
+    border-color: $fouceborderwarning;
+    box-shadow: none;
+}
+.btn-info:focus {
+    color: #fff;
+    background-color: $fouceinfo;
+    border-color: $fouceborderinfo;
+    box-shadow: none;
+}
+.btn-light:focus {
+    color: #fff;
+    background-color: $foucelight;
+    border-color: $fouceborderlight;
+    box-shadow: none;
+}
+.btn-dark:focus {
+    color: #fff;
+    background-color: $foucedark;
+    border-color: $fouceborderdark;
+    box-shadow: none;
+}
+// active button
+.btn-primary:active {
+    color: #fff !important;
+    background-color: $fouceprimary !important;
+    border-color: $fouceborderprimary !important;
+}
+.btn-secondary:active {
+    color: #fff !important;
+    background-color: $foucesecondary !important;
+    border-color: $foucebordersecondary !important;
+}
+.btn-success:active {
+    color: #fff !important;
+    background-color: $foucesuccess !important;
+    border-color: $foucebordersuccess !important;
+}
+.btn-danger:active {
+    color: #fff !important;
+    background-color: $foucedanger !important;
+    border-color: $fouceborderdanger !important;
+}
+.btn-warning:active {
+    color: #fff !important;
+    background-color: $foucewarning !important;
+    border-color: $fouceborderwarning !important;
+}
+.btn-info:active {
+    color: #fff !important;
+    background-color: $fouceinfo !important;
+    border-color: $fouceborderinfo !important;
+
+}
+.btn-light:active {
+    color: #fff !important;
+    background-color: $foucelight !important;
+    border-color: $fouceborderlight !important;
+}
+.btn-dark:active {
+    color: #fff !important;
+    background-color: $foucedark !important;
+    border-color: $fouceborderdark !important;
+}
+
+// button outline style
+.btn-outline-primary {
+    border-color: $primary;
+}
+.btn-outline-secondary {
+    border-color: $secondary;
+}
+.btn-outline-success {
+    border-color: $success;
+}
+.btn-outline-danger {
+    border-color: $danger;
+}
+.btn-outline-warning {
+    border-color: $warning;
+}
+.btn-outline-info {
+    border-color: $info;
+}
+.btn-outline-light {
+    border-color: $light;
+}
+.btn-outline-dark {
+    border-color: $dark;
+}
+.btn-outline-primary:hover{
+    color: #fff;
+    background-color: $hoverprimary;
+    border-color: $hoverborderprimary;
+}
+.btn-outline-secondary:hover{
+    color: #fff;
+    background-color: $hoversecondary;
+    border-color: $hoverbordersecondary;
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: $hoversuccess;
+    border-color: $hoverbordersuccess;
+}
+.btn-outline-danger:hover{
+    color: #fff;
+    background-color: $hoverdanger;
+    border-color: $hoverborderdanger;
+}
+.btn-outline-warning:hover{
+    color: #fff;
+    background-color: $hoverwarning;
+    border-color: $hoverborderwarning;
+}
+.btn-outline-info:hover{
+    color: #fff;
+    background-color: $hoverinfo;
+    border-color: $hoverborderinfo;
+}
+.btn-outline-light:hover{
+    color: #fff;
+    background-color: $hoverlight;
+    border-color: $hoverborderlight;
+}
+.btn-outline-dark:hover{
+    color: #fff;
+    background-color: $hoverdark;
+    border-color: $hoverborderdark;
+}
+// focus button outline
+.btn-outline-primary:focus {
+    color: #fff;
+    background-color: $fouceprimary;
+    border-color: $fouceborderprimary;
+    box-shadow: none;
+}
+.btn-outline-secondary:focus {
+    color: #fff;
+    background-color: $foucesecondary;
+    border-color: $foucebordersecondary;
+    box-shadow: none;
+}
+.btn-outline-success:focus {
+    color: #fff;
+    background-color: $foucesuccess;
+    border-color: $foucebordersuccess;
+    box-shadow: none;
+}
+.btn-outline-danger:focus {
+    color: #fff;
+    background-color: $foucedanger;
+    border-color: $fouceborderdanger;
+    box-shadow: none;
+}
+.btn-outline-warning:focus {
+    color: #fff;
+    background-color: $foucewarning;
+    border-color: $fouceborderwarning;
+    box-shadow: none;
+}
+.btn-outline-info:focus {
+    color: #fff;
+    background-color: $fouceinfo;
+    border-color: $fouceborderinfo;
+    box-shadow: none;
+}
+.btn-outline-light:focus {
+    color: #fff;
+    background-color: $foucelight;
+    border-color: $fouceborderlight;
+    box-shadow: none;
+}
+.btn-outline-dark:focus {
+    color: #fff;
+    background-color: $foucedark;
+    border-color: $fouceborderdark;
+    box-shadow: none;
+}
+// active button outline
+.btn-outline-primary:active {
+    color: #fff !important;
+    background-color: $fouceprimary !important;
+    border-color: $fouceborderprimary !important;
+}
+.btn-outline-secondary:active {
+    color: #fff !important;
+    background-color: $foucesecondary !important;
+    border-color: $foucebordersecondary !important;
+}
+.btn-outline-success:active {
+    color: #fff !important;
+    background-color: $foucesuccess !important;
+    border-color: $foucebordersuccess !important;
+}
+.btn-outline-danger:active {
+    color: #fff !important;
+    background-color: $foucedanger !important;
+    border-color: $fouceborderdanger !important;
+}
+.btn-outline-warning:active {
+    color: #fff !important;
+    background-color: $foucewarning !important;
+    border-color: $fouceborderwarning !important;
+}
+.btn-outline-info:active {
+    color: #fff !important;
+    background-color: $fouceinfo !important;
+    border-color: $fouceborderinfo !important;
+}
+.btn-outline-light:active {
+    color: #fff !important;
+    background-color: $foucelight !important;
+    border-color: $fouceborderlight !important;
+}
+.btn-outline-dark:active {
+    color: #fff !important;
+    background-color: $foucedark !important;
+    border-color: $fouceborderdark !important;
+}

@@ -1,0 +1,108 @@
+$primary:#706fd3;
+$secondary:#474787;
+$success:#33d9b2;
+$danger:#ff5252;
+$warning:#ffb142;
+$info:#218c74;
+$light:#f7f1e3;
+$dark:#2c2c54;
+
+@import "button";
+
+// -----------------------------------------------------------
+
+// text color
+.text-primary {
+    color: $primary !important;
+}
+.text-secondary {
+    color: $secondary !important;
+}
+.text-success {
+    color: $success !important;
+}
+.text-danger {
+    color: $danger !important;
+}
+.text-warning {
+    color: $warning !important;
+}
+.text-info {
+    color: $info !important;
+}
+.text-light {
+    color: $light !important;
+}
+.text-dark {
+    color: $dark !important;
+}
+.btn{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.btn:active{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+// -----------------------------------------------------------
+
+// background color
+.bg-primary{
+    background-color: $primary !important;
+}
+.bg-secondary{
+    background-color: $secondary !important;
+}
+.bg-success{
+    background-color: $success !important;
+}
+.bg-danger{
+    background-color: $danger !important;
+}
+.bg-warning{
+    background-color: $warning !important;
+}
+.bg-info{
+    background-color: $info !important;
+}
+.bg-light{
+    background-color: $light !important;
+}
+.bg-dark{
+    background-color: $dark !important;
+}
+
+// -----------------------------------------------------------
+
+// badge
+.badge-primary{
+    background-color: $primary
+}
+.badge-secondary{
+    background-color: $secondary
+}
+.badge-success{
+    background-color: $success
+}
+.badge-danger{
+    background-color: $danger
+}
+.badge-warning{
+    background-color: $warning
+}
+.badge-info{
+    background-color: $info
+}
+.badge-light{
+    background-color: $light
+}
+.badge-dark{
+    background-color: $dark !important;
+}
+
+.list-group-item.active {
+    background-color: $primary;
+    border-color: $primary;
+}
