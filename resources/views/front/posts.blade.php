@@ -29,7 +29,7 @@
         @empty
         لا يوجد عناصر
         @endforelse
-        {{$posts->links()}}
+{{--        {{$posts->links()}}--}}
     </div>
 
     <!-- Sidebar Widgets Column -->

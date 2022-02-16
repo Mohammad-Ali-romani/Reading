@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{-- <meta name="author" content=""> --}}
     <title>@yield('title')</title>
-    <meta name='description' content="@yield('description')" />
+    <meta name='description' content="@yield('description')"/>
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">

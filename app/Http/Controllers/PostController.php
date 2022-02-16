@@ -53,7 +53,7 @@ class PostController extends Controller
             'title' => $request->title,
             'photo'=>"uploads/posts/".$fileName,
             'category_id'=>1,
-            'content' => $request->content
+            'content' => $request->content,
         ]);
         return redirect()->route('post.index');
     }

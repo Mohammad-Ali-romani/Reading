@@ -16,12 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('front.home');
-// })->name('home');
-Route::get('/', [PostController::class,'show_all'])->name('posts');
-Route::get('/posts/category/{category_id}/post/{id}', [PostController::class,'show'])->name('post.show.one');
-Route::post('/comment/{id}', [CommentController::class,'save'])->name('comment.save');
-Route::get('/posts/category/{id}',[CategoryController::class,'showPosts'])->name('PostCategory.show');
-Route::get('/posts/search',[PostController::class,'search'])->name('search');
-require __DIR__.'/auth.php';
+ Route::get('/', [PostController::class,'show_all'])->name('home');
+ Route::prefix('admin')->group(function(){
+     Route::get('/', [PostController::class,'index'])->name('posts');
+     Route::get('/posts/category/{category_id}/post/{id}', [PostController::class,'show'])->name('post.show.one');
+     Route::post('/comment/{id}', [CommentController::class,'save'])->name('comment.save');
+     Route::get('/posts/category/{id}',[CategoryController::class,'showPosts'])->name('PostCategory.show');
+     Route::get('/posts/search',[PostController::class,'search'])->name('search');
+     require __DIR__.'/auth.php';
+ });
